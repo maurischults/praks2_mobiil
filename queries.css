@@ -3,3 +3,17 @@
     width: 95%;
   }
 }
+@media only screen and (max-width: 800px) {
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.contact-info_left,
+.contact-info_right {
+  width: 75%;
+}
+.contact-info_left {
+  margin-bottom: 50px;
+}
