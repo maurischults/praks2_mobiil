@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+/*---HEADER---*/
+header {
+  margin-bottom: 70px;
+}
+.logo-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 0;
+}
+#logo {
+  margin-left: 60px;
+  font-weight: bold;
+  font-size: 22px;
+}
+#searchbox {
+  margin-right: 60px;
+}
+/*---NAVIGATSIOON---*/
+nav {
+  padding: 7px 0;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #ac8e68;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+nav ul li a:hover {
+  color: #554532;
+}
+.header-image {
+  height: 350px;
+  background: linear-gradient(rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0.7)),
+    url("heron.jpg");
+  background-position: 50% 60%;
+}
+main {
+  margin-bottom: 70px;
+}
+/*---KONTAKTINFO---*/
+.contact-info {
+  display: flex;
+}
+.contact-info__left,
+.contact-info__right {
+  width: 50%;
+}
+table {
+  margin: 0 auto;
+  line-height: 150%;
+}
+.contact-info__left table tr td:first-child {
+  font-weight: bold;
+  text-align: right;
+  padding-right: 5px;
+}
+/*---GALERII---*/
+.gallery-heading {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.gallery-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.gallery-content img {
+  width: auto;
+  height: 100%;
+}
+.gallery-content .image-wrapper {
+  height: 300px;
+  flex-basis: 28%;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+footer p {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+}
+/*---SISSELOGIMINE---*/
+.login {
+  text-align: end;
+  font-weight: bold;
+}
+#nimi {
+  margin-left: 20px;
+}
